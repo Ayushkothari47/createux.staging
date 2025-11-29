@@ -25,7 +25,7 @@ function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-10 py-6 flex justify-between items-center">
         {/* Left - Name */}
-        <div className="text-xl">Ayush Kothari</div>
+        <div className="text-xl">Prashant Sharma</div>
 
         {/* Right - Menu + Call Button */}
         <div className="flex items-center gap-6">
@@ -46,11 +46,11 @@ function Navbar() {
 
           {/* Call Button */}
           <a
-            href="tel:+916396979579"
+            href="tel:+910123456789"
             className="hidden md:flex items-center gap-2 bg-[#ff5052] text-white px-4 py-2 rounded-full hover:bg-[#ff5052] transition-colors"
           >
             <FaPhoneAlt />
-            +91 6396979579
+            +91 0123456789
           </a>
 
           {/* Mobile Hamburger */}

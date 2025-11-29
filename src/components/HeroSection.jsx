@@ -4,7 +4,7 @@ import heroBanner_img from '../assets/bg.jpg';
 import { Typewriter } from 'react-simple-typewriter';
 
 function HeroSection() {
-  const words = ['Design', 'Develop', 'Test'];
+  const words = ['Mobile Screens', 'Web Screens', 'Posters'];
 
   return (
     <div
@@ -16,12 +16,12 @@ function HeroSection() {
     >
       <div className="text-center p-6 md:p-12 bg-black/50 rounded-lg max-w-4xl mx-4">
         <h1 className="text-4xl md:text-4xl font-semibold text-white mb-4 ">
-          Hi, I'm Ayush Kothari
+          Hi, I'm Prashant Sharma
         </h1>
 
         <h2 className="text-md md:text-2xl text-white mb-6">
-          <span>I can </span>
-          <span className="text-[#ff4c4f] underline">
+          <span>I can design </span>
+          <span className="text-[#ff4c4f]">
             <Typewriter
               words={words}
               loop={0}               // 0 = infinite loop
