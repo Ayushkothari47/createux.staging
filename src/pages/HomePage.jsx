@@ -14,13 +14,13 @@ function HomePage() {
     <div className='bg-[#141414]'>
       <Navbar />
       <HeroSection />
-      {/* <About />
+      <Project />
+      <About />
       <Portfolio />
-      <Skills />
+      {/* <Skills /> */}
       <Resume />
       <Services />
-      <Project />
-      <Contact /> */}
+      <Contact />
     </div>
   )
 }

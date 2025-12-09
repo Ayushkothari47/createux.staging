@@ -18,8 +18,8 @@ function FullPortfolio() {
           alt={profile}
           className="w-28 h-28 mx-auto rounded-full border-5 border-[#fd596c] object-cover mb-3"
         />
-        <h2 className="text-xl font-semibold text-white">Ayush Kothari</h2>
-        <p className="text-[#ff5052] text-sm mb-3">Backend Developer</p>
+        <h2 className="text-xl font-semibold text-white">Prashant Sharma</h2>
+        <p className="text-[#ff5052] text-sm mb-3">Graphic Designer</p>
         <div className="flex justify-center gap-1 mb-3">
           {[...Array(5)].map((_, index) => (
             <FaStar key={index} className="text-yellow-400" />
